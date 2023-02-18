@@ -1,0 +1,21 @@
+# parcel
+.parcel-cache
+
+# OSX
+.DS_Store
+
+# IntelliJ
+.idea/
+
+# Dependency
+node_modules/
+
+# build
+dist/
+
+# Jest
+.jest/
+coverage/
+
+# Error logs
+yarn-error.log
