@@ -1,0 +1,20 @@
+{
+  "name": "Mono-Ptolemaeus",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/rollinstar/ptolemaeus.git",
+  "author": "rollinstar <junsh.rock@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "shared/*"
+  ],
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "alias": {
+    "shared": "./shared"
+}
+}
