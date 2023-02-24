@@ -4,8 +4,9 @@
 # OSX
 .DS_Store
 
-# IntelliJ
+# IDE
 .idea/
+.vscode/
 
 # Dependency
 node_modules/
