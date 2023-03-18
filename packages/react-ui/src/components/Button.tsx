@@ -1,7 +1,7 @@
-import React, {MouseEventHandler} from "react";
-import styled from "styled-components";
+import React, { MouseEventHandler } from 'react';
+import styled from 'styled-components';
 
-import { gray } from '../../styles/styled/colors';
+import { gray } from '../../../../common/styles/styled/colors';
 
 export const ButtonBase = styled.button`
     display: inline-flex;
@@ -57,7 +57,7 @@ interface ButtonStyleProps {
 }
 
 export const Button = (props: ButtonStyleProps) => {
-    console.log(props.size)
+    console.log(props.size);
     const classes = [];
     const { variant, size, children } = props;
     if (variant) classes.push(variant);

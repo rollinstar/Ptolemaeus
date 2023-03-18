@@ -15,10 +15,12 @@
         "preserveWatchOutput": true,
         "skipLibCheck": true,
         "strict": true,
-        "paths": {
-            "shared/*": ["../../shared/*"]
-        },
-        "types": ["node"]
+        "types": [
+            "node",
+            "jest"
+        ]
     },
-    "exclude": ["node_modules"]
+    "exclude": [
+        "node_modules"
+    ]
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import {Button} from 'react-ui'
+import { Button } from 'react-ui';
 
 const AppPage = styled.div`
     font-size: 15px;
     color: 1a202c;
-`
+`;
 
 export const App = () => {
     return (
@@ -17,4 +17,4 @@ export const App = () => {
             </Button>
         </AppPage>
     );
-}
+};
